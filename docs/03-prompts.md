@@ -134,5 +134,3 @@ Ajuste 1 (Injeção de Gênero no Contexto): Incluí o campo de gênero na model
 Ajuste 2 (Foco na Sustentabilidade do Mover): Ajustei os exemplos de negação e aceitação para fixar que o programa não financia qualquer veículo antigo ou poluente, blindando o agente contra o erro de validar carros fora da meta de eficiência energética de 2026.
 
 Ajuste 3 (Lógica de Fechamento Amigável): Forcei a regra de "Checagem de Entendimento" com o nome do usuário em todos os finais de cenário do Few-Shot. Isso treina o modelo a ser empático e focado no usuário sem ser repetitivo ou técnico demais.
-- [Observação 1]
-- [Observação 2]
