@@ -64,15 +64,14 @@ Erro/Limitação:
 
 ### Diagrama
 
-```mermaid
 flowchart TD
-    A[Cliente / Motorista] -->|Mensagem em Linguagem Natural| B[Interface: Streamlit Chat]
+    A[Cliente / Motorista] -->|Mensagem em Linguagem Natural| B[Interface: Bate-papo Streamlit]
     B --> C[Orquestrador / LLM Local: Ollama]
     C --> D[Base de Conhecimento: JSON e CSV Adaptados]
     D -->|Filtro por CPF e Tabela BNDES| C
     C --> E[Camada de Validação / Segurança contra Alucinação]
-    E --> F[Resposta Didática da Patrícia]```
-
+    E --> F[Resposta Didática da Patrícia]
+    
 ### Componentes
 
 | Componente | Descrição |
